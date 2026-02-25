@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+
 export const Profile = () => {
 
   const [hover, setHover] = useState(false)
@@ -7,7 +8,7 @@ export const Profile = () => {
   return (
     <section
       className={hover
-        ? "min-h-screen flex flex-col justify-center items-center text-center bg-slate-900"
+        ? "min-h-screen flex flex-col justify-center items-center text-center bg-perfil-bg bg-cover bg-center"
         : "min-h-screen flex flex-col justify-center items-center text-center"
       }
       onMouseEnter={() => setHover(true)}
